@@ -10,13 +10,23 @@
   font-family: 'Merriweather', serif;*/
 /*Common shared styles*/
 
-main > section{
-  margin-bottom: 100px;
+.text-color{
+   color: #f00;
+}
+
+.p-info{
+  color: rgba(7, 2, 17, 0.60);
+  font-family:'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; 
+  margin-top: 20px;
+  width: 80%;
 }
 
 /* Heading section styles*/
 
-.header,.main{
+.header{
   max-width: 80%;
   max-height: 50%;
   margin: 50px auto;
@@ -48,6 +58,12 @@ main > section{
 
 /* main section styles*/
 
+.main>section{
+  max-width: 80%;
+  max-height: 50%;
+  border-radius: 20px;
+  margin: 130px auto;
+}
 
 /* Discount section styles*/
 .discount{
@@ -55,23 +71,22 @@ main > section{
   height: 50%;
   box-shadow: 30px 30px 50px rgb(238, 117, 117);
   margin: 120px auto;
-  border-radius: 20px;
 }
 
 .dis{
   text-align: center;
 }
 .off{
-  color: #F00;
+  padding: 20px 0px;
   font-family:'Inter', sans-serif;
   font-size: 90px;
   font-weight: 700;
 }
-.deal{
-  color: #F00;
+.sec-title{
+  color: #f00;
   font-size: 24px;
   font-family:'Inter', sans-serif;
-  margin-top: 50px;
+  margin: 20px 0px;
   font-weight: 500;
 }
 .category{
@@ -98,7 +113,6 @@ main > section{
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
-   border-radius: 16px;
 }
 .welcome-info{
   padding-left: 130px;
@@ -143,5 +157,78 @@ main > section{
 
 .welcome-img{
   padding-left: 10px;
+}
+
+/* Joining section styles*/
+
+.joining{
+  height: 500px;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.10);
+}
+
+.joining > .join-now > h3{
+  font-size: 35px;
+  font-family:'Inter', sans-serif;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+}
+.join-now{
+  padding-top: 130px;
+}
+.join-btn{
+  margin-top: 30px;
+  padding:16px 32px;
+  color: #FFF;
+  font-family:'Inter', sans-serif;
+  background-color: #f00;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  border-radius: 14px;
+  border-top-right-radius: 0;
+  cursor: pointer;
+}
+
+/* Coming soon section styles*/
+
+.coming-soon{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+}
+.coming-part{
+   width: 33%;
+}
+
+.coming{
+  color: #070211;
+  font-family: 'Merriweather', serif;
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.m-img{
+  width: 80%;
+  height: 100%;
+  border-radius: 100%;
+  padding: 30px;
+  border: 15px solid #F00;
+}
+.year{
+  font-family:'Inter', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 20px 0px;
+}
+.right{
+  padding-left: 100px;
+}
+.hny-img{
+   padding-top: 70px;
 }
 
