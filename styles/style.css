@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+  /*Font fa,ily:
+  font-family: 'Inter', sans-serif;
+  font-family: 'Merriweather', serif;*/
+/*Common shared styles*/
+
+main > section{
+  margin-bottom: 100px;
+}
+
+/* Heading section styles*/
+
+.header,.main{
+  max-width: 80%;
+  max-height: 50%;
+  margin: 50px auto;
+}
+.banner{
+  background-image: url("../images/Banner_image.png");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  text-align: center;
+  padding: 220px;
+}
+.title{
+  color: #FFF;
+  margin-bottom: 20px;
+  font-family: 'Merriweather', serif;
+  font-size: 35px;
+  font-weight: 400;
+}
+.party{
+  color: #FFF;
+  font-family: 'Merriweather', serif;
+  font-size: 75px;
+  font-weight: 900;
+}
+
+
+
+/* main section styles*/
+
+
+/* Discount section styles*/
+.discount{
+  width: 50%;
+  height: 50%;
+  box-shadow: 30px 30px 50px rgb(238, 117, 117);
+  margin: 120px auto;
+  border-radius: 20px;
+}
+
+.dis{
+  text-align: center;
+}
+.off{
+  color: #F00;
+  font-family:'Inter', sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+}
+.deal{
+  color: #F00;
+  font-size: 24px;
+  font-family:'Inter', sans-serif;
+  margin-top: 50px;
+  font-weight: 500;
+}
+.category{
+  color: #070211;
+  margin-top: 16px;
+  font-family:'Inter', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.dis-img{
+  padding-top: 50px;
+  width: 100%;
+}
+
+
+/* Welcome section styles*/
+.welcome{
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   background-image: url(../images/Vector.png);
+   height: 700px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 16px;
+}
+.welcome-info{
+  padding-left: 130px;
+  width: 60%;
+}
+.welcome-party{
+  color: #FFF;
+  font-family: 'Merriweather', serif;
+  font-size: 70px;
+  font-weight: 900;
+  margin-bottom: 40px;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+.welcome-discription{
+  color: rgba(255, 255, 255, 0.80);
+  font-family:'Inter', sans-serif;
+  font-size: 20px;
+  padding-bottom: 60px;
+  font-weight: 400;
+  line-height: 30px; 
+} 
+
+.welcome-btn{
+  display: inline-block;
+  padding:15px 40px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  border: 2px solid rgb(255, 203, 71);
+  border-radius: 20px;
+  border-top-right-radius: 0;
+  cursor: pointer;
+  background-image: linear-gradient(220deg,#80048d,#da4813);
+  transition: 0.5s;
+ }
+ 
+ .welcome-btn:hover{
+   border-top-right-radius: 20px;
+   background-image:linear-gradient(220deg,#1414ae,#80048d);
+ }
+
+.welcome-img{
+  padding-left: 10px;
+}
+
