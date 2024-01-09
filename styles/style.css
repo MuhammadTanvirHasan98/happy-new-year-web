@@ -263,37 +263,36 @@
    margin-top: 50px;
 }
 
-.img-container{
-  display: flex;
-  justify-content: space-around;
-  position: relative;
+.holi-img{
+  width: 33%;
 }
 
+.img-container{
+  display: flex;
+  justify-content: space-between;
+}
 
 .holi-dis{
-  position: absolute;
-   width: 10px;
-   height: 200px;
-   top: 200px;
+   position:relative;
+   top: 150px;
+   left: 180px;
+   width: 350px;
+   height: 350px;
 }
 
 .box{
   position: relative;
   top: 250px;
+  left: 100px;
+  width: 700px;
+  height: 600px;
 }
 
-.holi-img{
-  width: 100%;
-
-}
-.girl{
- 
-}
 .red-carpet{
   width: 100%;
 }
 
-/* H section styles*/
+/* Portfolio section styles*/
 .awesome{
   color: #070211;
   font-family: 'Merriweather', serif;
@@ -325,4 +324,66 @@
   z-index: 1;
 }
 
+
+
+/* Newsletter section styles*/
+
+.Newsletter{
+  background: rgba(255, 0, 0, 0.05);
+  padding-bottom: 100px;
+}
+.news-div{
+  text-align: center;
+}
+
+.news-img{
+  margin: 70px 0px 30px;
+}
+
+#news-p{
+   margin: 25px auto;
+}
+
+.news-div input{
+  border-radius: 50px;
+  background: #FFF;
+  font-size: 50px;
+   border: none;
+}
+
+.email-box{
+  margin-top: 80px;
+}
+
+
+#email {
+  width: 438px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 50px 0 0 50px;
+  color: rgba(7, 2, 17, 0.30);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 30px;
+}
+
+.subs-btn {
+  position: relative;
+  right: 5px;
+  padding: 23px 32px;
+  border: none;
+  border-radius:0 50px 50px 0px;
+  color: #FFF;
+  text-align: center;
+  background: #F00;
+  font-family:'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.subs-btn:hover{
+  background-image:linear-gradient(220deg,#1414ae,#80048d);
+}
 
