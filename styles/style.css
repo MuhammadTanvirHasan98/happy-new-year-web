@@ -4,7 +4,6 @@
   
 }
 
-
   /*Font fa,ily:
   font-family: 'Inter', sans-serif;
   font-family: 'Merriweather', serif;*/
@@ -26,11 +25,12 @@
 
 /* Heading section styles*/
 
-.header{
-  max-width: 80%;
-  max-height: 50%;
+.header,.main{
+  max-width: 1550px;
+  max-height: 760px;
   margin: 50px auto;
 }
+
 .banner{
   background-image: url("../images/Banner_image.png");
   background-size:cover;
@@ -59,8 +59,6 @@
 /* main section styles*/
 
 .main>section{
-  max-width: 80%;
-  max-height: 50%;
   border-radius: 20px;
   margin: 130px auto;
 }
@@ -164,7 +162,7 @@
 .joining{
   height: 500px;
   text-align: center;
-  background-color: rgba(255, 0, 0, 0.10);
+  background: rgba(255, 0, 0, 0.05);
 }
 
 .joining > .join-now > h3{
@@ -189,6 +187,12 @@
   border-radius: 14px;
   border-top-right-radius: 0;
   cursor: pointer;
+  transition: 0.35s;
+}
+.join-btn:hover{
+  border-top-right-radius: 14px;
+  
+  background-image:linear-gradient(220deg,#db5135,#ef0909);
 }
 
 /* Coming soon section styles*/
@@ -231,4 +235,94 @@
 .hny-img{
    padding-top: 70px;
 }
+
+/* Holidays section styles*/
+
+.holi-uper{
+   text-align: center;
+}
+.fun-title{
+  color: #070211;
+  font-family:'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.holi-sale{
+  color: #070211;
+  font-family: 'Merriweather', serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+}
+.holi-p{
+  margin: 15px auto;
+}
+.holi-lower{
+   margin-top: 50px;
+}
+
+.img-container{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+
+.holi-dis{
+  position: absolute;
+   width: 10px;
+   height: 200px;
+   top: 200px;
+}
+
+.box{
+  position: relative;
+  top: 250px;
+}
+
+.holi-img{
+  width: 100%;
+
+}
+.girl{
+ 
+}
+.red-carpet{
+  width: 100%;
+}
+
+/* H section styles*/
+.awesome{
+  color: #070211;
+  font-family: 'Merriweather', serif;
+  font-size: 48px;
+  font-weight: 900;
+}
+.p-port{
+  width: 60%;
+}
+
+.img-port{
+  margin-top: 40px;
+}
+
+.p-images{
+  display: flex;
+  width: 100%;
+  margin-bottom: 25px;
+  gap: 25px;
+}
+
+.p-img{
+  width: 33%;
+   transition: transform ease-in 0.3s;
+}
+
+.p-img:hover{
+  transform: scale(1.1);
+  z-index: 1;
+}
+
 
