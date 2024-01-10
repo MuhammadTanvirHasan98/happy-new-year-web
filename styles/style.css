@@ -17,7 +17,7 @@
   font-weight: 400;
   line-height: 32px; 
   margin-top: 20px;
-  width: 80%;
+  width: 70%;
 }
 
 .header,.main{
@@ -28,15 +28,27 @@
 
 /* Heading section styles*/
 
-.banner{
-  background-image: url("../images/Banner_image.png");
-  background-size:cover;
+.header-section{
+  background-image: url(../images/Banner_image.png);
+  width:100%;
+  max-width: 1550px;
+  height: 700px;
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 16px;
-  text-align: center;
-  padding: 220px;
+  border-radius: 20px;
 }
+
+.banner-shadow{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 700px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+  border-radius: 20px;
+}
+
 .title{
   color: #FFF;
   margin-bottom: 20px;
@@ -99,19 +111,35 @@
 
 
 /* Welcome section styles*/
-.welcome{
-   display: flex;
-   gap: 10px;
-   align-items: center;
+.welcome-section{
    background-image: url(../images/Vector.png);
    height: 700px;
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
+   border-radius: 20px;
 }
+
+.dark-shadow{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 80%;
+    max-width: 1550px;
+    height: 700px;
+    background: linear-gradient(80deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 20px;
+    align-items: center;
+}
+
 .welcome-info{
   padding-left: 130px;
   width: 60%;
+}
+
+.welcome-img{
+  position: relative;
+  left: 140px;
 }
 .welcome-party{
   color: #FFF;
@@ -302,9 +330,6 @@
   font-family: 'Merriweather', serif;
   font-size: 48px;
   font-weight: 900;
-}
-.p-port{
-  width: 60%;
 }
 
 .img-port{
